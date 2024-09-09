@@ -7,7 +7,8 @@ export default {
 				'custom':["Silkscreen" , 'sans-serif']
 			},
 			colors :{
-				myorange : '#a46808'
+				myorange : '#a46808',
+				bg_black : '#16181C'
 			}
 			
 			

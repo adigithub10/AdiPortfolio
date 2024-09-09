@@ -1,7 +1,10 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
+
 import Socials from '../components/Socials.astro';
+import Techstack from '../layouts/Techstack.astro';
+
 const technologies = [
   {
     name: 'React JS',
@@ -72,8 +75,10 @@ const technologies = [
   <head>
 
   </head>
+
   <body class=" bg-bg_black">
-    <div class="">
+    <div>
+      <div>
 	<h1 class="font-custom text-5xl md:text-[112px] mt-20 text-center leading-none  px-4 py-20 hero-title z-10 text-white"
   >Aditi Pawase</h1>
 </div>
@@ -92,6 +97,15 @@ const technologies = [
     </h3>
  </div>
  <Socials />
+ <br>
+ <br>
+ <Techstack />
+
+</div>
+</div>
+
+ 
+ 
  
 
   </body>

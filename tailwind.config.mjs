@@ -8,7 +8,9 @@ export default {
 			},
 			colors :{
 				myorange : '#a46808',
-				bg_black : '#16181C'
+				bg_black : '#16181C',
+				snow_white : '#FFFAFA',
+				tech_clr : '#121212',
 			}
 			
 			

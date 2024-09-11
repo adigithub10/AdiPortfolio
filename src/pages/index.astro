@@ -3,67 +3,10 @@ import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 
 import Socials from '../components/Socials.astro';
-import Techstack from '../layouts/Techstack.astro';
+import Techstack from '../components/Techstack.astro';
+import Getintouch from '../components/Getintouch.astro';
+const value = "< Aditi Pawase />";
 
-const technologies = [
-  {
-    name: 'React JS',
-    link: 'https://react.dev/',
-  },
-  {
-    name: 'Next JS',
-    link: 'https://nextjs.org/',
-  },
-  {
-    name: 'Astro JS',
-    link: 'https://astro.build/',
-  },
-  {
-    name: 'MySQL',
-    link: 'https://mysql.com/',
-  },
-  {
-    name: 'MongoDB',
-    link: 'https://mongodb.com/',
-  },
-  // {
-  //   name: 'SocketIO',
-  //   link: 'https://socket.io/',
-  // },
-  // {
-  //   name: 'ElectronJS',
-  //   link: 'https://electronjs.org/',
-  // },
-  // {
-  //   name: 'Firebase',
-  //   link: 'https://firebase.google.com/',
-  // },
-  // {
-  //   name: 'Google Admin',
-  //   link: 'https://workspace.google.com/intl/en_in/products/admin/',
-  // },
-  // {
-  //   name: 'Flask',
-  //   link: 'https://flask.palletsprojects.com/',
-  // },
-  {
-    name: 'WiX',
-    link: 'https://wix.com/',
-  },
-  // {
-  //   name: 'Framer',
-  //   link: 'https://framer.com/',
-  // },
-  {
-    name: 'WordPress',
-    link: 'https://wordpress.org/',
-  },
-  // {
-  //   name: 'Linux',
-  //   link: 'https://www.linuxfoundation.org/',
-  // },
-
-]
 
 ---
 
@@ -72,17 +15,15 @@ const technologies = [
   </style>
 <!doctype html>
 <html lang="en">
-  <head>
 
-  </head>
-
-  <body class=" bg-bg_black">
+ 
+  <body class=" bg-bg_black h-100" >
     <div>
       <div>
 	<h1 class="font-custom text-5xl md:text-[112px] mt-20 text-center leading-none  px-4 py-20 hero-title z-10 text-white"
   >Aditi Pawase</h1>
 </div>
-   <h3 class="text-myorange [text-shadow:1px_3px_8px_var(--tw-shadow-color)] shadow-myorange relative bottom-20  right-60 text-right font-semibold px-20   justify-end  md:text-[20px]" ><  PawaseAditi/></h3>
+   <h3 class="text-myorange [text-shadow:1px_3px_8px_var(--tw-shadow-color)] shadow-myorange relative bottom-20  right-60 text-right font-semibold px-20   justify-end  md:text-[20px]" >{value}</h3>
   <!-- <div class="flex items-centre  relative left-40 justify-centre content-centre  px-4 py-0">
    
    <h3  class="font-title text-4xlbv  md:text-[20px] justify-center inline-block p-4 text-center ml-20 mr-5 leading-none border border-cyan-900 rounded-3xl  bg-cyan-900 hero-title z-10 text-white ">Student</h3>
@@ -99,8 +40,16 @@ const technologies = [
  <Socials />
  <br>
  <br>
+ <h1></h1>
+  <div><Techstack /></div>
  
- <Techstack />
+
+
+ <div> <Getintouch /></div>
+
+ 
+<h1 class="text-white">fhsjsjj</h1>
+
 
 </div>
 </div>
@@ -110,4 +59,5 @@ const technologies = [
  
 
   </body>
+</div>
   </html>

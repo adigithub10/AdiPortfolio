@@ -4,7 +4,8 @@ export default {
 	theme: {
 		extend: {
 			fontFamily :{
-				'custom':["Silkscreen" , 'sans-serif']
+				'custom':["Silkscreen" , 'sans-serif'],
+				'soc_text':["Montserrat", 'sans-serif']
 			},
 			colors :{
 				myorange : '#a46808',

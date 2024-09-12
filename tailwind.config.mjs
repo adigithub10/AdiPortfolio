@@ -11,6 +11,7 @@ export default {
 				bg_black : '#16181C',
 				snow_white : '#FFFAFA',
 				tech_clr : '#121212',
+				tech_bg : '#212529',
 			}
 			
 			

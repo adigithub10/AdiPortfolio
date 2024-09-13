@@ -5,7 +5,10 @@ export default {
 		extend: {
 			fontFamily :{
 				'custom':["Silkscreen" , 'sans-serif'],
-				'soc_text':["Montserrat", 'sans-serif']
+				'soc_text':["Montserrat", 'sans-serif'],
+				'quote_text' : ["Spirax", "system-ui"],
+				'code_text' : ["Handjet", "sans-serif"]
+				
 			},
 			colors :{
 				myorange : '#a46808',

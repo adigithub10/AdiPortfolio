@@ -7,6 +7,9 @@ import Techstack from '../components/Techstack.astro';
 import Getintouch from '../components/Getintouch.astro';
 import Quote from '../components/Quote.astro';
 import Resume from '../components/Resume.astro';
+import Navbar from '../components/Navbar.astro'
+import Extraquotes from '../components/Extraquotes.astro'
+
 
 const value = "< Aditi Pawase />";
 
@@ -26,21 +29,22 @@ const value = "< Aditi Pawase />";
  
   <body class=" bg-black h-100" >
     <div>
+      <Navbar />
       <div>
-	<h1 class="font-custom text-5xl md:text-[112px] mt-20 text-center leading-none  px-4 py-20 hero-title z-10 text-white"
+	<h1 class="font-custom text-5xl md:text-[112px] mt-20 text-center leading-none  px-4 py-20 hero-title z-10 text-white opacity-80"
   >Aditi Pawase</h1>
 </div>
-   <h3 class="text-myorange [text-shadow:1px_3px_8px_var(--tw-shadow-color)] shadow-myorange relative bottom-20  right-60 text-right font-semibold px-20   justify-end  md:text-[20px]" >{value}</h3>
+   <h3 class="text-myorange [text-shadow:1px_3px_8px_var(--tw-shadow-color)] shadow-myorange hover:cursor-pointer hover:text-red-200 relative bottom-20  right-60 text-right font-semibold px-20   justify-end  md:text-[20px]" >{value}</h3>
   <!-- <div class="flex items-centre  relative left-40 justify-centre content-centre  px-4 py-0">
    
    <h3  class="font-title text-4xlbv  md:text-[20px] justify-center inline-block p-4 text-center ml-20 mr-5 leading-none border border-cyan-900 rounded-3xl  bg-cyan-900 hero-title z-10 text-white ">Student</h3>
    <h3  class="font-title text-4xl md:text-[20px] justify-center inline-block p-4 text-center ml-3 leading-none border border-cyan-900 rounded-3xl  bg-cyan-900 hero-title z-10 text-white ">Web developer</h3>
 	</div>  -->
   <div class="flex items-center relative justify-center lg:justify-start lg:w-[60%] mx-auto px-4 py-0">
-    <h3 class="font-title text-4xl md:text-[20px] inline-block p-4 text-center ml-10 md:ml-5 leading-none border border-cyan-900 rounded-3xl bg-cyan-900 hero-title z-10 text-white">
+    <h3 class="font-title text-4xl md:text-[20px] inline-block p-4 text-center ml-10 md:ml-5 hover:cursor-pointer hover:text-gray-900 leading-none border border-cyan-900 rounded-3xl bg-cyan-900 hero-title z-10 text-white">
        Student
     </h3>
-    <h3 class="font-title text-4xl md:text-[20px] inline-block p-4 text-center ml-3 leading-none border border-cyan-900 rounded-3xl bg-cyan-900 hero-title z-10 text-white">
+    <h3 class="font-title text-4xl md:text-[20px] hover:cursor-pointer hover:text-gray-900 inline-block p-4 text-center ml-3 leading-none border border-cyan-900 rounded-3xl bg-cyan-900 hero-title z-10 text-white">
        Web Developer
     </h3>
  </div>
@@ -54,7 +58,8 @@ const value = "< Aditi Pawase />";
 
  <div> <Getintouch /></div>
  <div><Resume /></div>
-<div> <Quote /></div>
+ <div> <Extraquotes /> </div>
+
  
 
 

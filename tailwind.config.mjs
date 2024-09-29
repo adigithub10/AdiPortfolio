@@ -16,6 +16,9 @@ export default {
 				snow_white : '#FFFAFA',
 				tech_clr : '#121212',
 				tech_bg : '#212529',
+			},
+			screens : {
+				 'xl-custom': '1000px'
 			}
 			
 			

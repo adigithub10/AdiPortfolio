@@ -1,4 +1,5 @@
 ---
+import { displayQuote } from "../../public/quoteCycle";
 const quotes =[  " The Internet is the first thing that humanity has built that humanity doesn't understand, the largest experiment in anarchy that we have ever had. ",
 "A computer would deserve to be called intelligent if it could deceive a human into believing that it was human. — Alan Turing",
 "Your computer is only as smart as the person using it. — Mark Cuban",
@@ -7,12 +8,13 @@ const quotes =[  " The Internet is the first thing that humanity has built that 
 "Computers are useless. They can only give you answers. — Pablo Picasso",
 "Computers themselves, and software yet to be developed, will revolutionize the way we learn. — Steve Jobs",
 ];
+
 ---
 <footer class="bg-bg_black text-white p-4">
   <div class="text-cyan-600 opacity-100 p-7 font-code_text text-3xl  justify-center items-stretch text-center" id="quote">
     {quotes[0]}
   </div>
   <!-- Link to client-side script -->
-  <script type="module" src="/quoteCycle.js"></script>
+  <script type="module" src="../public/quoteCycle.js">quoteCycle()</script>
 </footer>
 

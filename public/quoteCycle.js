@@ -15,4 +15,5 @@ const quotes =[  " The Internet is the first thing that humanity has built that 
   
   // Run the function when the page loads
   window.onload = displayQuote;
+export { displayQuote };
   

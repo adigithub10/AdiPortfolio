@@ -7,8 +7,9 @@ export default {
 				'custom':["Silkscreen" , 'sans-serif'],
 				'soc_text':["Montserrat", 'sans-serif'],
 				'quote_text' : ["Spirax", "system-ui"],
-				'code_text' : ["Handjet", "sans-serif"]
-				
+				'code_text' : ["Handjet", "sans-serif"],
+				'ibm_font':["Ibm-plex-mono" , "serif"],
+				'handjet' :["Handjet" ,'serif' ]
 			},
 			colors :{
 				myorange : '#a46808',
